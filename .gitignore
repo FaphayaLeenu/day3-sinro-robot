@@ -1,0 +1,47 @@
+# ─── ROS 2 Build Artifacts ────────────────────────────────────────
+build/
+install/
+log/
+
+# ─── Python Cache ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+# *.py[cod] matches .pyc, .pyo, .pyd
+*.egg-info/
+dist/
+.eggs/
+
+# ─── ROS Bag Recordings ──────────────────────────────────────────
+*.bag
+*.bag.active
+*.db3
+# .db3 = SQLite bag format used by ROS 2
+
+# ─── IDE & Editor Files ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+# .swp/.swo = vim swap files
+
+# ─── Secrets & Environment ───────────────────────────────────────
+.env
+.env.local
+secrets.yaml
+
+# ─── OS-generated Files ──────────────────────────────────────────
+.DS_Store
+# .DS_Store = macOS Finder metadata
+Thumbs.db
+# Thumbs.db = Windows Explorer thumbnail cache
+
+# ─── Compiled C/C++ (for embedded robotics) ──────────────────────
+*.o
+*.a
+*.so
+*.elf
+*.hex
+
+# ─── Logs ────────────────────────────────────────────────────────
+*.log
+logs/	
